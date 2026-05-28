@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post de Instagram</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article class="post-card" aria-label="Publicacion de Instagram">
+      <header class="post-header">
+        <div class="author-block">
+          <img
+            class="avatar"
+            src="https://picsum.photos/seed/melisa-avatar/48/48"
+            alt="Foto de perfil de Melisa Oubiña"
+          />
+          <div class="author-text">
+            <h1>Melisa Oubiña</h1>
+            <p>Mar del Plata, Argentina</p>
+          </div>
+        </div>
+        <button class="menu-button" aria-label="Mas opciones">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+      </header>
+
+      <img
+        class="post-image"
+        src="https://picsum.photos/id/237/200/300"
+        alt="Paisaje publicado en Instagram"
+      />
+
+      <section class="post-actions" aria-label="Acciones de publicacion">
+        <div class="left-actions">
+          <button aria-label="Me gusta">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button aria-label="Comentar">
+            <i class="fa-regular fa-comment"></i>
+          </button>
+          <button aria-label="Compartir">
+            <i class="fa-regular fa-paper-plane"></i>
+          </button>
+        </div>
+        <button class="save-button" aria-label="Guardar">
+          <i class="fa-regular fa-bookmark"></i>
+        </button>
+      </section>
+
+      <section class="likes" aria-label="Cantidad de likes">
+        <i class="fa-solid fa-heart likes-icon" aria-hidden="true"></i>
+        <strong>212 Likes</strong>
+      </section>
+
+      <p class="caption">
+        <strong>melisa_oubina</strong>
+        Lorem ipsum dolor sit amet
+        <a href="#">#augue</a>
+        <a href="#">#adipiscing</a>
+        <a href="#">#elit</a>
+      </p>
+    </article>
+  </body>
+</html>
